@@ -8,8 +8,6 @@ Home page coming soon
 
 <p align="center">Country Page</p>
 
-<img src="./src/assets/rockets.png">
-
 Country page coming soon
 
 <h1 align="center">Covid Watch</h1>
