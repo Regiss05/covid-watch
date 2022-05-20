@@ -30,9 +30,9 @@ To get a local copy up and running follow these setup steps below.
 
 👤 **Authors**
 
-- GitHub: [Ben Kiarie](https://github.com/Benmuiruri) - Follow me on Github, browse my projects, and leave a star for any project you like.
-- Twitter: [Optimize](https://twitter.com/_optimize) - Follow me on Twitter I will make your Timeline a bit more interesting
-- LinkedIn: [Ben Kiarie](https://www.linkedin.com/in/benjamin-kiarie-180b66149/) - Connect with me on LinkedIn and help each other grow professionally
+- GitHub: [regiss05](https://github.com/regiss05)
+- Twitter: [regiss05](https://twitter.com/regissmukubiza)
+- LinkedIn: [regiss05](https://www.linkedin.com/in/regiss05/)
 
 ## 🤝 Contributing
 
