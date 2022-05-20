@@ -1,0 +1,50 @@
+.homeCallout {
+  background-color: #e65591;
+  padding-top: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dataSection {
+  background-color: #dd0db0;
+  padding-top: 1em;
+}
+
+.home {
+  width: 90%;
+  max-width: 40rem;
+  padding: 3rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.africaImageDiv {
+  width: 25vw;
+  opacity: 0.1;
+}
+
+.africaImage {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.innercontent {
+  color: #fff;
+}
+
+.dataSectionHeader {
+  text-align: center;
+  color: #fff;
+  padding: 2em 0;
+}
+
+.countryWrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 5px;
+  grid-auto-flow: row;
+  grid-gap: 20px 20px;
+}

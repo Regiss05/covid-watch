@@ -1,0 +1,23 @@
+.countryCard {
+  color: #fff;
+}
+
+/* .countryCard :nth-child(4n) {
+  color: lime;
+} */
+
+.cardLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.countryStatsContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.countryStatsData {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
