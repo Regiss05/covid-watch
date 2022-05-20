@@ -1,15 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Preview
-
-<p align="center">Home Page</p>
-
-Home page coming soon
-
-<p align="center">Country Page</p>
-
-Country page coming soon
-
 <h1 align="center">Covid Watch</h1>
 
 > Covid Watch is displays information from different data sources to provide comprehensive data for the novel coronavirus, SARS-CoV-2.
