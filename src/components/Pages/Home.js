@@ -1,23 +1,19 @@
 // @ts-nocheck
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { loadContinentData } from '../../redux/countries/countries';
-import CountryCard from '../Country/CountryCard';
-import africaImage from '../../assets/africa.png';
+import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
+import CountriesList from '../Country/CountriesList';
+// import africaImage from '../../assets/africa.png';
 import classes from './Home.module.css';
 
 const Home = () => {
-  const countries = useSelector((state) => state.countries);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(loadContinentData());
-  }, []);
+  const { countries } = useSelector((state) => state.countries);
+  const [searchValue, setSearchValue] = useState('');
 
   const totalVacinated = () => {
     let total = 0;
     if (countries) {
       countries.forEach((country) => {
-        total += country.All.administered;
+        total += country.total;
       });
     }
     return total.toLocaleString();
@@ -27,7 +23,7 @@ const Home = () => {
     let total = 0;
     if (countries) {
       countries.forEach((country) => {
-        total += country.All.people_vaccinated;
+        total += country.full_vacinated;
       });
     }
     return total.toLocaleString();
@@ -37,46 +33,59 @@ const Home = () => {
     let total = 0;
     if (countries) {
       countries.forEach((country) => {
-        total += country.All.people_partially_vaccinated;
+        total += country.partial_vaccinated;
       });
     }
     return total.toLocaleString();
   };
+  const filterCountriesHandler = (e) => {
+    setSearchValue(e.target.value);
+  };
+
   return (
     <>
       <section className={classes.homeCallout}>
-        <div className={classes.africaImageDiv}>
-          <img
-            src={africaImage}
-            className={classes.africaImage}
-            alt="Map of Africa"
-          />
-        </div>
         <div className={classes.innercontent}>
+          <h1>Africa Vaccine Stats</h1>
           <p>
-            Total Vaccines Administed across Africa:
+            Total Vaccines Administed:
             {' '}
             {totalVacinated()}
           </p>
           <p>
-            Total People Fully Vaccinated across Africa:
+            Fully Vaccinated Individuals:
             {' '}
             {fullyVacinated()}
           </p>
           <p>
-            Total People Partially Vaccinated across Africa:
+            Partially Vaccinated Individuals:
             {' '}
             {partiallyVacinated()}
           </p>
         </div>
       </section>
       <section className={classes.dataSection}>
-        <h2 className={classes.dataSectionHeader}>Africa&apos;s COVID Vaccine Data</h2>
-        <div className={classes.countryWrapper}>
-          {countries
-            && countries.map((country) => (
-              <CountryCard key={country.All.country} country={country} />
-            ))}
+        <h2 className={classes.dataSectionHeader}>
+          Africa COVID Vaccine Data
+        </h2>
+        <div className={classes.inputDiv}>
+          <label htmlFor="Search" className={`${classes.field} ${classes.field_v1}`}>
+            <input
+              className={`${classes.field__input} ${classes.field__inputs}`}
+              type="text"
+              name="search"
+              value={searchValue}
+              onChange={filterCountriesHandler}
+              placeholder="e.g. Kenya"
+            />
+            <span className={`${classes['field__label-wrap']}`}>
+              <span className={`${classes.field__label}`}>Search Country</span>
+            </span>
+          </label>
+        </div>
+
+        <div className={`${classes.homeContent}`}>
+          <CountriesList searchValue={searchValue} />
         </div>
       </section>
     </>

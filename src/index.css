@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Oxygen+Mono&family=Raleway:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -90,7 +90,7 @@ video {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -145,7 +145,3 @@ a img {
 }
 
 /* END RESET */
-
-main {
-  margin-top: 6rem;
-}

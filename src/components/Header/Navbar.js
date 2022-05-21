@@ -1,5 +1,3 @@
-/* eslint-disable react/button-has-type */
-// @ts-nocheck
 import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGear, faMicrophone } from '@fortawesome/free-solid-svg-icons';
@@ -13,10 +11,7 @@ const Navbar = () => {
   return (
     <>
       {ctx.isLoggedIn && (
-        <Nav defaultActiveKey="/home" className={classes.nav} as="ul">
-          <Nav.Item as="li">
-            <span>Search</span>
-          </Nav.Item>
+        <Nav defaultActiveKey="/" className={classes.nav} as="ul">
           <Nav.Item as="li">
             <FontAwesomeIcon
               icon={faMicrophone}
@@ -32,22 +27,12 @@ const Navbar = () => {
           <Nav.Item as="li">
             <Nav.Link eventKey="link-2">
               {' '}
-              <button onClick={ctx.onLogout}>Logout</button>
+              <button type="button" onClick={ctx.onLogout}>Logout</button>
             </Nav.Link>
           </Nav.Item>
         </Nav>
       )}
     </>
-    // <nav className={classes.nav}>
-    //   <ul>
-    //     {ctx.isLoggedIn && <span>Search</span>}
-    //     {ctx.isLoggedIn && (
-    //       <li>
-    //         <button onClick={ctx.onLogout}>Logout</button>
-    //       </li>
-    //     )}
-    //   </ul>
-    // </nav>
   );
 };
 

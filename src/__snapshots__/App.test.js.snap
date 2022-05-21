@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test presence of App component renders the APp component correctly 1`] = `
+<main>
+  <div
+    className="mainContent"
+  >
+    <div
+      className="innerContent"
+    >
+      <div
+        className="toggleSection"
+      >
+        <span
+          className="language"
+        >
+          EN
+        </span>
+        <img
+          alt="toggle icon"
+          className="toggleIcon"
+          src="toggle.png"
+        />
+        <span
+          className="language"
+        >
+          FR
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-angles-right faIcon anglesRight"
+          data-icon="angles-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="logo-image"
+      >
+        <img
+          alt="Logo"
+          className="logo"
+          src="logo.png"
+        />
+      </div>
+      <div
+        className="card login"
+      >
+        <h2
+          className="loginHeader"
+        >
+          Enter your login details
+        </h2>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="control "
+          >
+            <input
+              id="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Email"
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="control "
+          >
+            <input
+              id="password"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            className="actions"
+          >
+            <button
+              className="btn button"
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </form>
+      </div>
+      <a
+        className="passwordLink"
+        href="#"
+      >
+        forgot email/password
+      </a>
+      <button
+        className="twitterBtn button"
+        type="button"
+      >
+        Sign in with Twitter
+      </button>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Test presence of App component renders the App component correctly 1`] = `
+<main>
+  <div
+    className="mainContent"
+  >
+    <div
+      className="innerContent"
+    >
+      <div
+        className="toggleSection"
+      >
+        <span
+          className="language"
+        >
+          EN
+        </span>
+        <img
+          alt="toggle icon"
+          className="toggleIcon"
+          src="toggle.png"
+        />
+        <span
+          className="language"
+        >
+          FR
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-angles-right faIcon anglesRight"
+          data-icon="angles-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="logo-image"
+      >
+        <img
+          alt="Logo"
+          className="logo"
+          src="logo.png"
+        />
+      </div>
+      <div
+        className="card login"
+      >
+        <h2
+          className="loginHeader"
+        >
+          Enter your login details
+        </h2>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="control "
+          >
+            <input
+              id="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Email"
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="control "
+          >
+            <input
+              id="password"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            className="actions"
+          >
+            <button
+              className="btn button"
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </form>
+      </div>
+      <a
+        className="passwordLink"
+        href="#"
+      >
+        forgot email/password
+      </a>
+      <button
+        className="twitterBtn button"
+        type="button"
+      >
+        Sign in with Twitter
+      </button>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Test presence of App component renders the Missions component correctly 1`] = `
+<main>
+  <div
+    className="mainContent"
+  >
+    <div
+      className="innerContent"
+    >
+      <div
+        className="toggleSection"
+      >
+        <span
+          className="language"
+        >
+          EN
+        </span>
+        <img
+          alt="toggle icon"
+          className="toggleIcon"
+          src="toggle.png"
+        />
+        <span
+          className="language"
+        >
+          FR
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-angles-right faIcon anglesRight"
+          data-icon="angles-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="logo-image"
+      >
+        <img
+          alt="Logo"
+          className="logo"
+          src="logo.png"
+        />
+      </div>
+      <div
+        className="card login"
+      >
+        <h2
+          className="loginHeader"
+        >
+          Enter your login details
+        </h2>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="control "
+          >
+            <input
+              id="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Email"
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="control "
+          >
+            <input
+              id="password"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            className="actions"
+          >
+            <button
+              className="btn button"
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </form>
+      </div>
+      <a
+        className="passwordLink"
+        href="#"
+      >
+        forgot email/password
+      </a>
+      <button
+        className="twitterBtn button"
+        type="button"
+      >
+        Sign in with Twitter
+      </button>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Test presence of Missions component renders the Missions component correctly 1`] = `
+<main>
+  <div
+    className="mainContent"
+  >
+    <div
+      className="innerContent"
+    >
+      <div
+        className="toggleSection"
+      >
+        <span
+          className="language"
+        >
+          EN
+        </span>
+        <img
+          alt="toggle icon"
+          className="toggleIcon"
+          src="toggle.png"
+        />
+        <span
+          className="language"
+        >
+          FR
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-angles-right faIcon anglesRight"
+          data-icon="angles-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div
+        className="logo-image"
+      >
+        <img
+          alt="Logo"
+          className="logo"
+          src="logo.png"
+        />
+      </div>
+      <div
+        className="card login"
+      >
+        <h2
+          className="loginHeader"
+        >
+          Enter your login details
+        </h2>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="control "
+          >
+            <input
+              id="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Email"
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="control "
+          >
+            <input
+              id="password"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            className="actions"
+          >
+            <button
+              className="btn button"
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </form>
+      </div>
+      <a
+        className="passwordLink"
+        href="#"
+      >
+        forgot email/password
+      </a>
+      <button
+        className="twitterBtn button"
+        type="button"
+      >
+        Sign in with Twitter
+      </button>
+    </div>
+  </div>
+</main>
+`;
