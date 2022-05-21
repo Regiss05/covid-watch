@@ -8,7 +8,8 @@
 
 ## Live Link
 
-Live Link coming soon
+[Covid Watch](https://covid-watch-regiss05.netlify.app)
+[Loom Video](https://www.loom.com/share/277ad031e52243d4b77f1e87a459742a)
 
 ## Built With
 
