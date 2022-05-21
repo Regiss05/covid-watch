@@ -1,0 +1,72 @@
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.countryStatistics {
+  color: rgb(0, 0, 0);
+}
+
+.statsContentWrapper {
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.statsContent {
+  padding-top: 2em;
+  height: 100vh;
+}
+
+.mainStatsDiv {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.vaccineImage {
+  /* height: 70%; */
+  width: 50%;
+}
+
+.mainStats {
+  color: rgb(0, 0, 0);
+}
+
+.mainStats h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.mainStats p {
+  padding-top: 2em;
+  line-height: 1.3em;
+}
+
+.statisticsTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.additionalStats {
+  margin: 0 auto;
+  max-width: 40vw;
+  flex-direction: column;
+}
+
+.additionalStats h4 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+}
+
+.statisticDiv {
+  color: rgb(104, 104, 104);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-radius: 10px;
+}

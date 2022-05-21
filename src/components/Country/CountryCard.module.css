@@ -1,0 +1,46 @@
+.countryCard {
+  color: #fff;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.countryStatsContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.countryStatsData {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin-left: 1em;
+}
+
+.countryStatsData h3 {
+  padding-bottom: 0.5em;
+}
+
+.countryStatsImg {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.vaccineImg {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .countryStatsContent {
+    flex-direction: column;
+  }
+
+  .countryStatsData {
+    margin: 0 auto;
+  }
+}
